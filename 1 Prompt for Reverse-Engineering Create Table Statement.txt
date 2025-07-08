@@ -1,0 +1,10 @@
+#Comment: This is a prompt developed by Tingkai (Tank) Liu on 7/6/2025 for Text-to-SQL research. 
+
+Prompt:
+Reverse engineer the following SQL SELECT statement into a CREATE TABLE statement with comments:
+SELECT
+  cid AS customer_id,       -- unique customer identifier (primary key)
+  fn  AS first_name,        -- customer's first name
+  ln  AS last_name,         -- customer's last name
+  em  AS email,             -- customer's email address
+  ct  AS city,              -- customer's city
